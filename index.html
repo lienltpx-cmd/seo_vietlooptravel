@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Proposal SEO + AI Search 12 tháng — Vietlook Travel</title>
+<meta name="description" content="Đề xuất tăng trưởng Google Search và tìm kiếm bằng AI trong 12 tháng cho Vietlook Travel — Vinalink Media." />
+<style>
+:root{
+  --navy:#1f3d7a;
+  --navy-2:#244c97;
+  --blue:#2f7fd3;
+  --teal:#19a79b;
+  --orange:#f08a24;
+  --cream:#fff7ee;
+  --paper:#fffdfa;
+  --sand:#f4e8d7;
+  --green:#2f9e73;
+  --red:#b4534b;
+  --ink:#20242b;
+  --muted:#667788;
+  --line:#dce6ee;
+  --white:#fff;
+  --shadow:0 20px 60px rgba(31,61,122,.10);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+a{color:inherit}
+img{max-width:100%}
+.container{width:min(1160px,calc(100% - 40px));margin:0 auto}
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#183b7a 0%,#2866b2 50%,#19a79b 100%);color:#fff;padding:34px 0 72px}
+.hero:before{content:"";position:absolute;width:560px;height:560px;border-radius:50%;right:-180px;top:-170px;background:rgba(255,255,255,.06)}
+.hero:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;left:-180px;bottom:-220px;background:rgba(231,137,58,.16)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;position:relative;z-index:1}
+.brand{display:flex;align-items:center;gap:16px}
+.brand img{height:54px;max-width:220px;object-fit:contain;background:#fff;border-radius:10px;padding:8px 12px}
+.agency{font-size:13px;color:#d6e1e8;text-align:right}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:52px;align-items:center;margin-top:60px;position:relative;z-index:1}
+.eyebrow{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9e5ef;margin-bottom:14px}
+h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:0 0 22px;letter-spacing:-.05em;max-width:880px}
+.hero p{font-size:20px;max-width:760px;color:#e7eff3;margin:0}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:28px;padding:28px;backdrop-filter:blur(10px);box-shadow:0 20px 60px rgba(0,0,0,.18)}
+.metric{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+.metric div{background:rgba(255,255,255,.08);border-radius:18px;padding:18px}
+.metric strong{font-size:30px;display:block;line-height:1.1}.metric span{font-size:13px;color:#d9e7ed}
+.hero-note{margin-top:18px;font-size:13px;color:#c7dbe4}
+.section{padding:84px 0}
+.section.alt{background:#f6f8f9}
+.section.dark{background:var(--navy);color:#fff}
+.section-head{display:grid;grid-template-columns:180px 1fr;gap:28px;margin-bottom:36px;align-items:start}
+.kicker{font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+h2{font-size:clamp(30px,4vw,50px);line-height:1.08;letter-spacing:-.035em;margin:0 0 14px}
+.lead{font-size:19px;color:var(--muted);max-width:850px}.dark .lead{color:#ccdae2}
+.callout{background:var(--cream);border-left:5px solid var(--orange);border-radius:0 20px 20px 0;padding:24px 28px;margin:30px 0;font-size:20px;font-weight:700}
+.dark .callout{background:rgba(255,255,255,.08);color:#fff}
+.path{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:34px 0}
+.path .step{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 14px;min-height:120px;box-shadow:0 8px 30px rgba(13,43,69,.05)}
+.step small{display:block;color:var(--orange);font-weight:900;margin-bottom:8px}.step b{font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 10px 36px rgba(31,61,122,.08)}
+.card h3{margin:0 0 10px;font-size:20px}.card p{margin:0;color:var(--muted)}
+.card .num{font-size:12px;font-weight:900;color:var(--orange);letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:820px}th,td{padding:17px 18px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--navy);color:#fff;text-align:left;font-size:13px}td{font-size:14px}tr:last-child td{border-bottom:0}.status{font-weight:800;color:var(--red)}
+.battle{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.battle .card{border-top:4px solid var(--orange)}
+.battle ul{margin:10px 0 0;padding-left:20px;color:var(--muted)}
+.proof{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.proof .box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px}.proof strong{display:block;font-size:26px;color:var(--navy);margin-bottom:8px}
+.invest{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:stretch}.price{background:linear-gradient(135deg,#1f3d7a,#19a79b);color:#fff;border-radius:28px;padding:34px}.price .big{font-size:54px;line-height:1;font-weight:900;margin:14px 0}.price .total{font-size:18px;color:#d4e5ec}.scope{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.scope div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}.scope strong{display:block;color:var(--navy);margin-bottom:6px}
+.timeline{position:relative;margin-top:30px}.phase{display:grid;grid-template-columns:160px 1fr;gap:26px;padding:22px 0;border-bottom:1px solid var(--line)}.phase:last-child{border-bottom:0}.phase-time{font-weight:900;color:var(--orange)}.phase h3{margin:0 0 8px}.phase p{margin:0;color:var(--muted)}
+.review{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:30px}.review div{background:var(--cream);border:1px solid #eadcc8;border-radius:16px;padding:16px}.review b{display:block;color:var(--navy);margin-bottom:5px}
+.next{background:linear-gradient(135deg,#f7efe2,#fff);border:1px solid #eadcc8;border-radius:28px;padding:34px}.next ol{margin:16px 0 0;padding-left:22px}.next li{margin:8px 0}
+.footer{background:#071d2f;color:#d8e4e9;padding:38px 0}.footer-grid{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer small{display:block;color:#9db1bd}
+.pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:8px 12px;background:#eef5f7;color:#28556b;font-size:13px;font-weight:800;margin:4px 4px 4px 0}
+.dark .pill{background:rgba(255,255,255,.08);color:#e8f2f5}
+.data-panel{display:grid;grid-template-columns:1.05fr .95fr;gap:26px;align-items:start}
+.figure-card,.download-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:22px;box-shadow:0 10px 36px rgba(31,61,122,.08)}
+.figure-card img{display:block;width:100%;border-radius:18px;border:1px solid var(--line)}
+.figure-meta{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 0}
+.figure-meta .pill{margin:0}
+.btns{display:grid;gap:14px;margin-top:16px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;text-decoration:none;background:linear-gradient(135deg,#1f3d7a,#19a79b);color:#fff;border-radius:18px;padding:16px 18px;font-weight:800;box-shadow:0 14px 30px rgba(31,61,122,.14)}
+.btn small{display:block;font-size:12px;color:#d2e7ee;font-weight:600}
+.btn span{font-size:18px}
+.download-card ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+@media(max-width:900px){.hero-grid,.section-head,.grid2,.invest,.data-panel{grid-template-columns:1fr}.cards,.battle{grid-template-columns:1fr 1fr}.proof{grid-template-columns:1fr 1fr}.path{grid-template-columns:1fr 1fr 1fr}.review{grid-template-columns:1fr 1fr}.agency{display:none}}
+@media(max-width:620px){.container{width:min(100% - 24px,1160px)}.hero{padding-top:20px}.brand img{height:44px}.hero-grid{margin-top:42px}.cards,.battle,.proof,.scope,.path,.review{grid-template-columns:1fr}.phase{grid-template-columns:1fr}.section{padding:60px 0}h1{font-size:44px}.price .big{font-size:44px}}
+@media print{body{background:#fff}.section{break-inside:avoid}.hero{min-height:100vh}.container{width:94%}.hero-card,.card,.table-wrap,.price,.next{box-shadow:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <img src="https://cdn.ngay.net/khach/logo-vietlooktravel2.png?format=auto" alt="Vietlook Travel" />
+      </div>
+      <div class="agency">Tư vấn & Đề xuất bởi<br><strong>Vinalink Media</strong></div>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Google Search & Tìm kiếm bằng AI · Chiến lược 12 tháng</div>
+        <h1>TỪ WEBSITE GẦN NHƯ MỚI → HỆ THỐNG ĐÓN KHÁCH ĐANG LÊN KẾ HOẠCH DU LỊCH VIỆT NAM</h1>
+        <p>Không chạy theo thật nhiều bài viết. Vietlook cần xuất hiện từ lúc khách bắt đầu hỏi “đi đâu, mấy ngày, mùa nào, bao nhiêu tiền” cho tới khi họ chọn tour và gửi yêu cầu tư vấn.</p>
+      </div>
+      <div class="hero-card">
+        <div class="eyebrow" style="color:#fff">Đề xuất đầu tư</div>
+        <div class="metric">
+          <div><strong>12</strong><span>Tháng triển khai</span></div>
+          <div><strong>12M</strong><span>VNĐ / tháng</span></div>
+          <div><strong>144M</strong><span>Tổng ngân sách</span></div>
+          <div><strong>6</strong><span>Vùng nhu cầu chính</span></div>
+        </div>
+        <div class="hero-note">SEO = giúp Google tìm và xếp hạng. GEO = làm nội dung đủ rõ để công cụ AI hiểu, nhắc tới hoặc dẫn nguồn.</div>
+        <div style="margin-top:12px"><span class="pill" style="background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.18)">Vinalink Blue</span><span class="pill" style="background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.18)">Vietlook Teal</span><span class="pill" style="background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.18)">Travel Orange</span></div>
+        <div class="btns" style="margin-top:18px">
+          <a class="btn" href="https://docs.google.com/spreadsheets/d/1e5RcJsSTxfY2K-VnncYzTAOE_y7y5DfFU96Yeh5XYsU/edit" target="_blank" rel="noopener">
+            <div><small>Dữ liệu 01</small>📊 Xem SERP MAP Vietlooktravel</div><span>↗</span>
+          </a>
+          <a class="btn" href="https://docs.google.com/spreadsheets/d/19m5QDNAZZuBduW7qesw4I0Rc9kgHZvaKASBjfyMGYiQ/edit" target="_blank" rel="noopener">
+            <div><small>Dữ liệu 02</small>📊 Xem khoảng trống đối thủ</div><span>↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+<div class="container">
+  <div class="section-head"><div class="kicker">Tổng quan chiến lược</div><div><h2>Khách hàng cần thấy gì trong 30 giây?</h2><div class="lead">Vietlook đã có tour và kinh nghiệm vận hành. Khoảng trống là chưa tạo được đường đi từ câu hỏi của khách → nội dung → tour → yêu cầu báo giá.</div></div></div>
+  <div class="callout">Trọng tâm: Từ “Tôi muốn đi Việt Nam” → “Tôi biết nên đi đâu, mấy ngày, chọn tour nào” → “Tôi gửi yêu cầu cho Vietlook”.</div>
+  <div class="path">
+    <div class="step"><small>01</small><b>Bắt đầu tìm hiểu Việt Nam</b></div>
+    <div class="step"><small>02</small><b>Chọn vùng & điểm đến</b></div>
+    <div class="step"><small>03</small><b>Chọn số ngày</b></div>
+    <div class="step"><small>04</small><b>So sánh lịch trình & chi phí</b></div>
+    <div class="step"><small>05</small><b>Xem tour Vietlook</b></div>
+    <div class="step"><small>06</small><b>Gửi yêu cầu tư vấn</b></div>
+  </div>
+  <div class="figure-card" style="margin:30px 0 34px">
+    <img src="assets/semrush-domain-overview-vietlook.png" alt="Semrush Domain Overview của vietlooktravel.com" />
+    <p style="margin:14px 2px 0;color:var(--muted);font-size:14px"><b>Hình 1:</b> Dữ liệu Semrush Domain Overview của vietlooktravel.com — Authority Score 7, Organic Traffic 8, Organic Keywords 85 và AI Visibility 0 tại thời điểm chụp.</p>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="num">Trụ cột 01</div><h3>Mở “cửa vào” mới</h3><p>Xây các trang khách đang tìm trước khi biết Vietlook: lịch trình, thời tiết, chi phí, di chuyển và trang gom tour.</p></div>
+    <div class="card"><div class="num">Trụ cột 02</div><h3>Nối bài đọc với tour thật</h3><p>Mỗi bài phải có bước tiếp theo rõ ràng: xem lịch trình, xem tour, hỏi tư vấn hoặc yêu cầu báo giá.</p></div>
+    <div class="card"><div class="num">Trụ cột 03</div><h3>Tạo dấu vết trong AI</h3><p>Viết đủ rõ, cụ thể, có số liệu và trải nghiệm thật để AI có lý do dùng Vietlook làm nguồn.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section alt">
+<div class="container">
+  <div class="section-head"><div class="kicker">01 · Tiền và cơ hội đang rò</div><div><h2>Cơ hội không rò ở “thiếu tour”, mà ở những câu hỏi trước khi khách đặt tour</h2><div class="lead">Dữ liệu đối thủ cho thấy người thắng đang sở hữu nhiều điểm chạm trước quyết định: lịch trình, thời tiết, cách đi, chi phí và nhóm khách.</div></div></div>
+  <div class="download-card" style="margin-bottom:26px">
+    <div class="eyebrow" style="color:var(--navy)">Bảng dữ liệu chi tiết · SERP MAP</div>
+    <h3 style="margin:0 0 8px;font-size:22px">Xem mặt trận Google Search & AI Search của Vietlook</h3>
+    <p style="margin:0;color:var(--muted)">Dùng file này để kiểm tra truy vấn, đối thủ đang xuất hiện, dạng kết quả tìm kiếm và nơi Vietlook đang có hoặc chưa có mặt.</p>
+    <div class="btns"><a class="btn" href="https://docs.google.com/spreadsheets/d/1e5RcJsSTxfY2K-VnncYzTAOE_y7y5DfFU96Yeh5XYsU/edit" target="_blank" rel="noopener"><div><small>Excel 01</small>Mở SERP MAP Vietlooktravel</div><span>↗</span></a></div>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="num">Điểm rò 1</div><h3>Vietlook xuất hiện quá muộn</h3><p>Khách đã đọc và hình thành lựa chọn ở website khác trước khi họ nhìn thấy tour Vietlook.</p></div>
+    <div class="card"><div class="num">Điểm rò 2</div><h3>Tour chưa có “kệ hàng” mạnh</h3><p>Có nhiều tour cụ thể nhưng thiếu các trang gom như Vietnam Tours, Ninh Binh Tours, Halong Tours, Sapa Tours.</p></div>
+    <div class="card"><div class="num">Điểm rò 3</div><h3>Bài đọc chưa dẫn tới hành động</h3><p>Người đọc bài điểm đến cần được dẫn sang lịch trình, tour và form tư vấn thay vì kết thúc hành trình ở bài blog.</p></div>
+    <div class="card"><div class="num">Điểm rò 4</div><h3>AI gần như chưa biết Vietlook</h3><p>Trong bộ dữ liệu phân tích, Vietlook gần như chưa tạo tín hiệu rõ ở các câu hỏi tìm kiếm bằng AI.</p></div>
+    <div class="card"><div class="num">Điểm rò 5</div><h3>Thiếu lớp “giúp chọn”</h3><p>Khách cần câu trả lời kiểu 7 hay 10 ngày, Hạ Long 1 hay 2 ngày, Ninh Bình nên chọn Tràng An hay Tam Cốc.</p></div>
+    <div class="card"><div class="num">Điểm rò 6</div><h3>Kinh nghiệm thật chưa biến thành lợi thế</h3><p>Giá, thời gian đi, điểm đón, ngoại lệ, mùa đẹp, ảnh thật và kinh nghiệm hướng dẫn viên chưa được đóng gói thành tài sản tìm kiếm.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+  <div class="section-head"><div class="kicker">02 · Điểm nghẽn nội bộ</div><div><h2>Vì sao website gần như mới dù Vietlook đã có sản phẩm thật?</h2><div class="lead">Vấn đề chính không nằm ở số lượng bài viết. Vấn đề là cấu trúc website và nội dung chưa tạo thành một đường đi liền mạch.</div></div></div>
+  <div class="grid2">
+    <div class="card"><h3>1. Sản phẩm có trước, hệ thống tìm kiếm đi sau</h3><p>Tour đang tồn tại như các trang riêng lẻ. Google khó hiểu nhóm nào là trang chính, trang hỗ trợ và trang nào cần ưu tiên.</p></div>
+    <div class="card"><h3>2. Nhiều nội dung ở xa quyết định mua</h3><p>Bài điểm đến có ích, nhưng nếu không nối tới lựa chọn lịch trình và tour thì giá trị kinh doanh rất thấp.</p></div>
+    <div class="card"><h3>3. Thiếu câu trả lời giúp khách lựa chọn</h3><p>Đây là lớp gần tiền nhất: số ngày, mùa đi, chi phí, kiểu tour, cách đi và so sánh các phương án.</p></div>
+    <div class="card"><h3>4. Chưa đo được từ Google/AI đến yêu cầu tour</h3><p>Cần nối dữ liệu: khách thấy Vietlook ở đâu → đọc trang nào → xem tour nào → bấm liên hệ hay gửi form nào.</p></div>
+  </div>
+  <div class="callout">Chẩn đoán cốt lõi: Không phải “viết nhiều hơn”, mà là biến kinh nghiệm tổ chức tour thành một đường ống rõ ràng: Câu hỏi → Lựa chọn → Tour → Yêu cầu tư vấn.</div>
+</div>
+</section>
+
+<section class="section alt">
+<div class="container">
+  <div class="section-head"><div class="kicker">03 · Khoảng trống đối thủ</div><div><h2>Đối thủ đang chiếm các vùng khách hàng nào?</h2><div class="lead">Phân tích bộ dữ liệu Vietlook và 9 website cạnh tranh cho thấy khoảng trống lớn nằm ở các trang giúp khách lên kế hoạch và chọn tour.</div></div></div>
+  <div class="download-card" style="margin-bottom:26px">
+    <div class="eyebrow" style="color:var(--navy)">Bảng dữ liệu chi tiết · Competitor Gap</div>
+    <h3 style="margin:0 0 8px;font-size:22px">Xem toàn bộ khoảng trống Vietlook so với đối thủ</h3>
+    <p style="margin:0;color:var(--muted)">File đã làm sạch dữ liệu đối thủ, gom theo chủ đề và đưa ra thứ tự ưu tiên SEO + GEO cho Vietlook.</p>
+    <div class="btns"><a class="btn" href="https://docs.google.com/spreadsheets/d/19m5QDNAZZuBduW7qesw4I0Rc9kgHZvaKASBjfyMGYiQ/edit" target="_blank" rel="noopener"><div><small>Excel 02</small>Mở Vietlook Competitor Gap</div><span>↗</span></a></div>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Vùng nhu cầu</th><th>Nhóm đang có lợi thế</th><th>Hiện trạng Vietlook</th><th>Việc nên làm</th></tr></thead>
+      <tbody>
+        <tr><td><b>Vietnam Tours</b></td><td>TourRadar, công ty tour lớn</td><td class="status">Có tour nhưng thiếu trang gom mạnh</td><td>Xây trang Vietnam Tours làm “kệ hàng” chính.</td></tr>
+        <tr><td><b>Lịch trình 7 / 10 / 14 ngày</b></td><td>TourRadar, blogger, công ty tour</td><td class="status">Có tour cụ thể nhưng chưa phủ câu hỏi tổng quát</td><td>Xây bộ lịch trình theo số ngày và nối về tour thật.</td></tr>
+        <tr><td><b>Thời tiết & tháng nên đi</b></td><td>BestPrice và các trang hướng dẫn</td><td class="status">Gần như trống</td><td>Xây Vietnam by Month và bài theo mùa.</td></tr>
+        <tr><td><b>Ninh Bình</b></td><td>Ninh Binh Tour và các trang hướng dẫn</td><td>Đã có tín hiệu từ bài Van Long</td><td>Chọn làm cụm thử đầu tiên: cẩm nang → so sánh → lịch trình → tour.</td></tr>
+        <tr><td><b>Hạ Long / Sapa / Miền Trung</b></td><td>Nhiều đối thủ chuyên điểm đến</td><td class="status">Có sản phẩm nhưng độ phủ yếu</td><td>Xây trang gom tour + câu hỏi chọn lịch trình.</td></tr>
+        <tr><td><b>Di chuyển / Chi phí / Lưu trú</b></td><td>Publisher và blogger</td><td class="status">Thiếu nhiều</td><td>Tập trung vào các câu hỏi ngay trước lúc chốt lịch trình.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</section>
+
+<section class="section dark">
+<div class="container">
+  <div class="section-head"><div class="kicker">04 · Cái giá của việc không làm</div><div><h2>Rủi ro lớn nhất không phải mất thứ hạng, mà là không được đưa vào tập lựa chọn</h2><div class="lead">Một tour tốt không tạo ra giá trị nếu khách không gặp Vietlook trong lúc họ đang quyết định.</div></div></div>
+  <div class="cards">
+    <div class="card"><h3>Khách được đối thủ “dạy” trước</h3><p>Website trả lời câu hỏi đầu tiên có cơ hội ảnh hưởng cách khách chọn lịch trình và đơn vị tổ chức.</p></div>
+    <div class="card"><h3>Thêm tour nhưng không thêm người xem</h3><p>Website có thể có thêm hàng chục tour nhưng lượng truy cập vẫn thấp nếu thiếu các cửa vào từ Google.</p></div>
+    <div class="card"><h3>AI trả lời thay website</h3><p>Nếu Vietlook không có thông tin đủ rõ, công cụ AI sẽ dùng nguồn khác để trả lời khách.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+  <div class="section-head"><div class="kicker">05 · Chiến lược trận đánh</div><div><h2>12 tháng không đánh toàn bộ du lịch Việt Nam cùng lúc</h2><div class="lead">Chọn 6 vùng có liên hệ trực tiếp với sản phẩm thật của Vietlook và khả năng tạo yêu cầu tour.</div></div></div>
+  <div class="battle">
+    <div class="card"><div class="num">Vùng 1</div><h3>Vietnam Tours</h3><ul><li>Vietnam tour packages</li><li>Private tours</li><li>7 / 10 / 14 days</li></ul></div>
+    <div class="card"><div class="num">Vùng 2</div><h3>Ninh Bình</h3><ul><li>Tràng An vs Tam Cốc</li><li>1 ngày vs 2 ngày</li><li>Van Long / Hoa Lư / Hang Múa</li></ul></div>
+    <div class="card"><div class="num">Vùng 3</div><h3>Hà Nội → Hạ Long → Sapa</h3><ul><li>Cách đi</li><li>Số ngày</li><li>Lịch trình miền Bắc</li></ul></div>
+    <div class="card"><div class="num">Vùng 4</div><h3>Lịch trình theo số ngày</h3><ul><li>5 / 7 / 10 / 14 ngày</li><li>Lần đầu đi Việt Nam</li><li>Gia đình / người lớn tuổi</li></ul></div>
+    <div class="card"><div class="num">Vùng 5</div><h3>Câu hỏi trước khi đặt tour</h3><ul><li>Thời tiết</li><li>Chi phí</li><li>Di chuyển / nơi ở</li></ul></div>
+    <div class="card"><div class="num">Vùng 6</div><h3>Tìm kiếm bằng AI</h3><ul><li>Câu trả lời ngắn, rõ</li><li>Bảng lựa chọn</li><li>Dữ liệu và kinh nghiệm thật</li></ul></div>
+  </div>
+</div>
+</section>
+
+<section class="section alt">
+<div class="container">
+  <div class="section-head"><div class="kicker">06 · Năng lực & bằng chứng</div><div><h2>Chứng minh bằng dữ liệu trước khi mở rộng mạnh</h2><div class="lead">Website gần như mới nên cách an toàn nhất là thử nhỏ, đo phản hồi thật rồi dồn tiền vào vùng đang thắng.</div></div></div>
+  <div class="proof">
+    <div class="box"><strong>9</strong>website đối thủ đã được dùng để phân tích khoảng trống.</div>
+    <div class="box"><strong>1</strong>cụm thử ưu tiên: Ninh Bình, vì Vietlook đã có tín hiệu bước đầu.</div>
+    <div class="box"><strong>30–60</strong>câu hỏi AI đại diện để đo Vietlook có được nhắc hoặc dẫn nguồn hay không.</div>
+    <div class="box"><strong>4 tầng</strong>đo: việc đã làm → được nhìn thấy → có người vào → có hành động.</div>
+  </div>
+  <div class="callout">Nguyên tắc an toàn đầu tư: Không tiếp tục mở rộng một nhóm nội dung nếu dữ liệu ở các mốc rà soát cho thấy nhóm đó không phản hồi.</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+  <div class="section-head"><div class="kicker">07 · Đầu tư & phạm vi</div><div><h2>12 triệu/tháng mua được gì?</h2><div class="lead">Vietlook mua một hệ thống tăng trưởng có thể đo và điều chỉnh, không mua một danh sách bài viết cố định.</div></div></div>
+  <div class="invest">
+    <div class="price">
+      <div class="eyebrow" style="color:#d9ebf1">Đề xuất trọn gói</div>
+      <div class="big">12.000.000</div>
+      <div>VNĐ / THÁNG</div>
+      <div class="total">12 tháng · Tổng ngân sách 144.000.000 VNĐ</div>
+      <div style="margin-top:24px">
+        <span class="pill">SEO Google</span><span class="pill">Tìm kiếm bằng AI</span><span class="pill">Nội dung</span><span class="pill">Đo lường</span>
+      </div>
+    </div>
+    <div class="scope">
+      <div><strong>Nền tảng & dữ liệu</strong>Khóa số liệu hiện tại, kiểm tra lỗi chính, theo dõi Google và các hành động quan trọng.</div>
+      <div><strong>Trang bán tour</strong>Xây hoặc nâng các trang Vietnam Tours, Ninh Bình, Hạ Long, Sapa và cụm ưu tiên.</div>
+      <div><strong>3–4 khối nội dung / tháng</strong>Bài mới, cập nhật bài cũ hoặc trang lựa chọn. Số lượng có thể đổi theo độ khó từng tháng.</div>
+      <div><strong>Khoảng trống đối thủ</strong>Liên tục chọn câu hỏi mà đối thủ đã chứng minh có người tìm nhưng Vietlook còn thiếu.</div>
+      <div><strong>Đo tìm kiếm bằng AI</strong>Theo dõi 30–60 câu hỏi đại diện, ghi nhận Vietlook và đối thủ được nhắc ở đâu.</div>
+      <div><strong>Báo cáo quyết định</strong>Mỗi tháng: gì tăng, gì không tăng, trang nào nên giữ, trang nào nên dừng, tiền tháng sau nên dồn vào đâu.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section alt">
+<div class="container">
+  <div class="section-head"><div class="kicker">08 · Lộ trình 12 tháng</div><div><h2>Mỗi giai đoạn phải tạo ra một bằng chứng mới</h2><div class="lead">Không đợi đến tháng 12 mới biết dự án đúng hay sai.</div></div></div>
+  <div class="timeline">
+    <div class="phase"><div class="phase-time">THÁNG 1–2</div><div><h3>Đo đúng & dựng nền</h3><p>Khóa số liệu Google, rà website, đo hiện diện AI ban đầu, lập bản đồ tour, chọn cụm thử Ninh Bình và 5–8 trang quan trọng đầu tiên.</p></div></div>
+    <div class="phase"><div class="phase-time">THÁNG 3–5</div><div><h3>Mở các cửa vào đầu tiên</h3><p>Xây Vietnam Tours, Ninh Bình, Hạ Long, Sapa, lịch trình 7/10/14 ngày; bắt đầu nhóm thời tiết, di chuyển và chi phí.</p></div></div>
+    <div class="phase"><div class="phase-time">THÁNG 6–8</div><div><h3>Mở rộng cụm có tín hiệu</h3><p>Dồn nguồn lực vào 2–3 nhóm đang tăng tốt nhất; sửa các trang đã có lượt hiển thị nhưng chưa có lượt vào; tăng liên kết từ bài sang tour.</p></div></div>
+    <div class="phase"><div class="phase-time">THÁNG 9–10</div><div><h3>Đánh nhóm khách gần tiền</h3><p>Mở rộng tour riêng, gia đình, người lớn tuổi, nhóm nhỏ, golf hoặc nhóm sản phẩm Vietlook muốn bán nhiều nhất.</p></div></div>
+    <div class="phase"><div class="phase-time">THÁNG 11–12</div><div><h3>Củng cố & nhân rộng</h3><p>Tập trung các trang sát nhóm đầu Google, nội dung được AI nhắc, và các cụm tạo nhiều lượt xem tour / yêu cầu tư vấn nhất.</p></div></div>
+  </div>
+  <div class="review">
+    <div><b>Mốc T1</b>Khóa được nền thực tế và danh sách ưu tiên.</div>
+    <div><b>Mốc T3</b>Google bắt đầu phản hồi ở nhóm thử.</div>
+    <div><b>Mốc T6</b>Xác định 2–3 cụm đáng dồn lực.</div>
+    <div><b>Mốc T9</b>Nhìn rõ đường từ nội dung → tour.</div>
+    <div><b>Mốc T12</b>Đánh giá giá trị tạo ra và kế hoạch năm tiếp theo.</div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+  <div class="section-head"><div class="kicker">09 · Hợp tác & bước tiếp theo</div><div><h2>5 điểm cần khóa trước khi bắt đầu</h2><div class="lead">Vietlook càng rõ sản phẩm muốn bán và thị trường khách ưu tiên, 12 triệu mỗi tháng càng được dùng đúng chỗ.</div></div></div>
+  <div class="next">
+    <ol>
+      <li><b>5–10 tour muốn bán nhất:</b> để nội dung không tách khỏi mục tiêu kinh doanh.</li>
+      <li><b>Thị trường khách ưu tiên:</b> Mỹ, Úc, Anh/Châu Âu, Ấn Độ hay nhóm khác.</li>
+      <li><b>Dữ liệu Google hiện có:</b> cấp quyền các công cụ đang đo website.</li>
+      <li><b>Nguồn thông tin thật:</b> giá, lịch trình, ảnh thật, câu hỏi khách thường hỏi, kinh nghiệm hướng dẫn viên.</li>
+      <li><b>Tốc độ duyệt:</b> nên trong 3–5 ngày làm việc để không làm chậm quá trình học từ dữ liệu.</li>
+    </ol>
+  </div>
+  <div class="callout">Mục tiêu 12 tháng: Từ website gần như mới → có các vùng nhu cầu rõ ràng trên Google → bắt đầu được AI hiểu và nhắc → đưa người đọc sang tour và yêu cầu tư vấn.</div>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><strong>VIETLOOK TRAVEL · SEARCH GROWTH & AI SEARCH</strong><small>Đề xuất 12 tháng · 12.000.000 VNĐ / tháng</small></div>
+    <div style="text-align:right"><strong>Liên Lê – Vinalink Media</strong><small>Biên soạn & Thiết kế</small></div>
+  </div>
+</footer>
+</body>
+</html>
